@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/LearningSpringMVC.iml" filepath="$PROJECT_DIR$/.idea/LearningSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningSpringMVC2.iml" filepath="$PROJECT_DIR$/LearningSpringMVC2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LearningSpringMVC3.iml" filepath="$PROJECT_DIR$/LearningSpringMVC3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-mvc-app1/spring-mvc-app.iml" filepath="$PROJECT_DIR$/spring-mvc-app1/spring-mvc-app.iml" />
+    </modules>
+  </component>
+</project>
