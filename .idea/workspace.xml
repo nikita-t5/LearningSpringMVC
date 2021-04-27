@@ -9,16 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4825f5ea-fff9-4b36-9706-35be26898aab" name="Default Changelist" comment="del web.xml, appContext.xml. Add Java classes for confi App">
-      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/src/main/java/ru/simpleSpringMVCApp/controllers/FirstController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/src/main/java/ru/simpleSpringMVCApp/controllers/SecondController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/src/main/webapp/WEB-INF/views/first/goodbye.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-mvc-app1/src/main/webapp/WEB-INF/views/second/exit.html" afterDir="false" />
+    <list default="true" id="4825f5ea-fff9-4b36-9706-35be26898aab" name="Default Changelist" comment="Controller, GetMapping, RequestMapping">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc-app1/src/main/java/ru/simpleSpringMVCApp/HelloController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc-app1/src/main/webapp/WEB-INF/views/hello_world.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-mvc-app1/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-app1/src/main/java/ru/simpleSpringMVCApp/controllers/FirstController.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-app1/src/main/java/ru/simpleSpringMVCApp/controllers/FirstController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-mvc-app1/src/main/webapp/WEB-INF/views/first/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/spring-mvc-app1/src/main/webapp/WEB-INF/views/first/hello.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +68,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -166,7 +149,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1619030681288</updated>
-      <workItem from="1619030682531" duration="9911000" />
+      <workItem from="1619030682531" duration="10900000" />
+      <workItem from="1619454176972" duration="639000" />
+      <workItem from="1619537626205" duration="5862000" />
     </task>
     <task id="LOCAL-00001" summary="del web.xml, appContext.xml. Add Java classes for confi App">
       <created>1619110039404</created>
@@ -175,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619110039404</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Controller, GetMapping, RequestMapping">
+      <created>1619114289483</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1619114289483</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +175,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="del web.xml, appContext.xml. Add Java classes for confi App" />
-    <option name="LAST_COMMIT_MESSAGE" value="del web.xml, appContext.xml. Add Java classes for confi App" />
+    <MESSAGE value="Controller, GetMapping, RequestMapping" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller, GetMapping, RequestMapping" />
   </component>
   <component name="WindowStateProjectService">
     <state x="163" y="0" key="#Project_Structure" timestamp="1619106797948">
@@ -206,65 +199,73 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="62" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1619031924822" />
-    <state width="905" height="447" key="GridCell.Tab.0.bottom" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.0.bottom" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.0.center" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.0.center" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.0.left" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.0.left" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.0.right" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.0.right" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.1.bottom" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.1.bottom" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.1.center" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.1.center" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.1.left" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.1.left" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.1.right" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.1.right" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.2.bottom" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.2.bottom" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.2.center" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.2.center" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.2.left" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.2.left" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
-    <state width="905" height="447" key="GridCell.Tab.2.right" timestamp="1619113817548">
+    <state width="905" height="447" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
+    <state width="905" height="447" key="GridCell.Tab.2.right" timestamp="1619548227974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="905" height="447" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1619113817548" />
+    <state width="905" height="447" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1619548227974" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1619030813502">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1619030813502" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1619110047522">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1619114293907">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1619110047522" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1619114293907" />
+    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1619541449988">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1619541449988" />
     <state x="65" y="0" key="new project wizard" timestamp="1619107013385">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1619107013385" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1619547059670">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1619547059670" />
   </component>
 </project>
